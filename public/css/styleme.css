@@ -18,7 +18,7 @@ h1{
     font-size: 0.75em;
 }
 
-div>p {
+.heading>p {
     color: #00FF8F;
     font-size: 1.5em;
     font-weight: bold;
