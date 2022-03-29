@@ -1,0 +1,33 @@
+body{
+    background-color: #2A2828FF;
+    font-family: Arial, "Times New Roman", "Georgia";
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+h1{
+    color: #00FF8F;
+}
+
+.maharishi-link > a{
+    text-decoration: none;
+    color: #FF00007C;
+    font-weight: bold;
+}
+
+.maharishi-link > a:hover{
+    color: #FFFFFF;
+}
+
+.link{
+    color: #FF00007C;
+}
+
+div>p {
+    color: #00FF8F;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+em > p {
+    font-size: 0.75em;
+}
