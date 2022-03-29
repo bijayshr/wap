@@ -14,11 +14,12 @@ h1{
     text-decoration: none;
 }
 
+.notes{
+    font-size: 0.75em;
+}
+
 div>p {
     color: #00FF8F;
     font-size: 1.5em;
     font-weight: bold;
-}
-em > p {
-    font-size: 0.75em;
 }
