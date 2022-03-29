@@ -14,6 +14,10 @@ h1{
     text-decoration: none;
 }
 
+.link:hover{
+    text-decoration: underline;
+}
+
 .notes{
     font-size: 0.75em;
 }
