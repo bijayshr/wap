@@ -9,8 +9,15 @@ h1{
     color: #00FF8F;
 }
 
+p{
+    text-align: justify;
+}
+
+.favicon{
+    float: left;
+}
 .link{
-    color: #FF00007C;
+    color: #FFEA00D8;
     text-decoration: none;
 }
 
@@ -20,10 +27,29 @@ h1{
 
 .notes{
     font-size: 0.75em;
+    font-style: italic;
 }
 
 .heading>p {
     color: #00FF8F;
     font-size: 1.5em;
     font-weight: bold;
+    line-height: 1.5;
+}
+
+.heading>p::first-letter{
+    font-size: 1.5em;
+}
+.imdb-label{
+    line-height: 1;
+    font-size: 0.75em;
+    color: #00FF8F;
+    margin-top: 5px;
+}
+
+div .imdb-label>p{
+    text-indent: 3em;
+    color: #FFFFFF;
+    font-size: 0.9em;
+    margin-top: -1px;
 }
