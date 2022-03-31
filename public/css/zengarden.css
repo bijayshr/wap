@@ -1,12 +1,29 @@
 body{
     font-family: Arial, "Times New Roman", Georgia, Serif;
     font-size: 16px;
-    display: flex;
+    color:#FFF;
 }
 
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-image: url("../images/header-background.png");
+    background-position: center;
+    border: 1px solid green;
+    border-image: url("../images/header-background.png");
+    /*margin: 0 auto;*/
+    height:300px;
+}
 header > h1, h2{
     text-align: center;
+    font-size: 3em;
+    color: #101010;
+}
 
+#main-container{
+    background: #2A2828FF;
 }
 
 @media(min-width:768px){
@@ -18,14 +35,12 @@ header > h1, h2{
     }
 }
 
-
 #zen-supporting > div {
     flex: 1;
-    border: 1px solid #ccc;
 }
 
 #zen-supporting > div h3{
-    color: #4545D5FF;
+    color: #00FF8F;
     text-align: left;
     font-size: 1.5em;
 }
@@ -46,15 +61,69 @@ header > h1, h2{
 #footer .icons{
     padding: 20px;
     margin: 0 auto;
+    flex: 1;
+    text-align: center;
 }
 
-.design-selection{
+.navigation{
     display: flex;
-    flex-direction: row
-
+    flex-direction: column;
 }
 
-nav ul li {
-    list-style-type: none;
-    border: 2px solid red;
+.navigation ul li {
+    flex: 1;
+    margin: auto;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.wrapper  h3 {
+    font-size: 1.5em;
+    color:  #00FF8F;
+}
+
+.wrapper .design-selection{
+    flex:1;
+}
+
+.wrapper .design-selection .navigation ul li a {
+    text-decoration: none;
+}
+
+.wrapper .design-selection .navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .design-archives{
+    flex:1;
+}
+
+.wrapper .design-archives .archives ul li a {
+    text-decoration: none;
+}
+
+.wrapper .design-archives .archives ul li a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .zen-resources{
+    flex: 1;
+}
+
+.wrapper .zen-resources ul li a {
+    text-decoration: none;
+}
+
+.wrapper .zen-resources ul li a:hover {
+    text-decoration: underline;
+}
+
+a{
+    color: #FFEA00D8;
+    text-decoration: none;
 }
