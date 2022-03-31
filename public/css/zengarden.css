@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, "Times New Roman", Georgia, Serif;
+    font-size: 16px;
+    display: flex;
+}
+
+header > h1, h2{
+    text-align: center;
+
+}
+
+@media(min-width:768px){
+    #zen-supporting{
+        display: flex;
+        flex-direction: column ;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+
+
+#zen-supporting > div {
+    flex: 1;
+    border: 1px solid #ccc;
+}
+
+#zen-supporting > div h3{
+    color: #4545D5FF;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#footer .icons{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.design-selection{
+    display: flex;
+    flex-direction: row
+
+}
+
+nav ul li {
+    list-style-type: none;
+    border: 2px solid red;
+}
