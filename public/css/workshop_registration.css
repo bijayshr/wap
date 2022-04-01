@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Serif, "Times New Roman", Georgia;
+    font-size: 12px;
+}
+
+input[type="text"]{
+    border: 1px solid black;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #73aa78;
+}
+
+.form-title{
+    display: inline-flex;
+    border: 1px solid green;
+    flex: 1;
+    background-color: #73aa78;
+}
+
+.title{
+    /*padding: 10px;*/
+    margin-left: 5px;
+}
+
+.form-registration-link{
+    flex: 1;
+    margin: 20px 20px;
+}
+
+.form-registration-link > div > a{
+    color: black;
+}
+
+.form-main{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.form-main .personal-details{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-main .personal-details .personal-details-label{
+    flex:1;
+}
+
+.input-form{
+    margin: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.input-form.title-name {
+    text-decoration: underline;
+    position: relative;
+    top:15px;
+}
+.required{
+    color: red;
+}
+
+.form-main .other-details {
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-main .other-details .other-details-label{
+    flex:1;
+}
+
+.payment-mode{
+    list-style-type: none;
+}
+
+
+.label{
+    font-weight: bold;
+}
+.form-action{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #73aa78;
+    padding: 10px;
+}
+
+.btn{
+
+}
