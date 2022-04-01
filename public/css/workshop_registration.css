@@ -97,4 +97,9 @@ input[type="text"]{
 
 .validator {
     display: flex;
+    justify-content: center;
+}
+
+.validator .css-validator {
+    margin-top: 2px;
 }
