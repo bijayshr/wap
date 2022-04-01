@@ -21,6 +21,7 @@ input[type="text"]{
     display: inline-flex;
     border: 1px solid green;
     background-color: #73aa78;
+    width: 100%;
 }
 
 .title{
